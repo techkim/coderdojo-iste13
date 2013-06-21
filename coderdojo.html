@@ -1,0 +1,221 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>CoderDojo @ #ISTE13</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+
+	<!--
+	<link rel="stylesheet" href="themes/greenbrown.css">
+	-->
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+	<script>
+	$( document ).on( "click", ".show-page-loading-msg", function() {
+    var $this = $( this ),
+        theme = $this.jqmData( "theme" ) || $.mobile.loader.prototype.options.theme,
+        msgText = $this.jqmData( "msgtext" ) || $.mobile.loader.prototype.options.text,
+        textVisible = $this.jqmData( "textvisible" ) || $.mobile.loader.prototype.options.textVisible,
+        textonly = !!$this.jqmData( "textonly" );
+        html = $this.jqmData( "html" ) || "";
+    $.mobile.loading( "show", {
+            text: msgText,
+            textVisible: textVisible,
+            theme: theme,
+            textonly: textonly,
+            html: html
+    });
+})
+.on( "click", ".hide-page-loading-msg", function() {
+    $.mobile.loading( "hide" );
+});
+</script>
+</head>
+
+
+<body>
+
+<!-- Start of Home page -->
+<div data-role="page" id="page1" data-position="fixed">
+
+	<div data-role="header"  >
+		<h1>CoderDojo at ISTE 2013</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+	<h2>Welcome to CoderDojo at #ISTE13!</h2>
+	<p>CoderDojo is a global collaboration providing free and open learning to young people, especially in programming technology. The first CoderDojo launched in Ireland in June 2011. CoderDojo's can now be found in <a href="http://zen.coderdojo.com/dojo" target="_blank">over 30 countries</a>. CoderDojo makes development and learning to code a fun and sociable experience. CoderDojo also puts an emphasis on open source and free software, and has a strong network of members and volunteers globally.</p>
+	<img src="http://techkim.wikispaces.com/file/view/coderdojo3.jpg/438984702/coderdojo3.jpg"><br>
+
+	   </div><!-- /content -->
+
+	   <div data-role="footer">
+	   <div data-role="navbar" data-grid="d">
+        <ul>
+        <li><a href="#page1" class="ui-btn-active">Welcome</a></li>
+        <li><a href="#page2">Founders</a></li>
+        <li><a href="#page3">Mentors</a></li>
+        <li><a href="#page4">Students</a></li>
+        <li><a href="#page5">Resources</a></li>
+       
+        </ul>
+    </div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+<!-- Start of Founders page -->
+<div data-role="page" id="page2">
+
+	<div data-role="header" data-position="fixed">
+	<h1>Meet the Founders</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+	<h4>Meet Bill Liao and James Whelton. Their motto for CoderDojo "Above all: Be cool!"</h4> 
+	<br>
+	 <iframe src="https://docs.google.com/a/kimxtom.com/file/d/0B8bnFyzmW4V_cVQzSzRoeUoyc0E/preview" width="640" height="385"></iframe>
+	</div><!-- /content -->
+
+<div data-role="footer">
+	<div data-role="navbar" data-grid="d">
+    <ul>
+        <li><a href="#page1">Welcome</a></li>
+        <li><a href="#page2" class="ui-btn-active">Founders</a></li>
+        <li><a href="#page3">Mentors</a></li>
+        <li><a href="#page4">Students</a></li>
+        <li><a href="#page5">Resources</a></li>
+    </ul>
+</div><!-- /navbar -->
+  </div><!-- /footer -->
+</div><!-- /page -->
+
+<!-- Start of Mentors page -->
+<div data-role="page" id="page3">
+
+	<div data-role="header"  data-position="fixed">
+	<h1>Meet CoderDojo Mentors</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+	<iframe src='http://padlet.com/embed/rwufvr0big' frameborder='0' width='100%' height='480px' style='padding:0;margin:0;border:none'></iframe><div style='border-top:2px solid #a7d23a;padding:8px;margin:0;font-size:12px;text-align:right'><a href='http://padlet.com' style='color:#41555f;text-decoration:none'>Created with Padlet<img valign='middle' style='margin:0 0 0 10px;padding:0;border:none;width:16px;height:16px' src='http://padlet.com/favicon.ico'></a>
+	</div>
+	<!--
+		<a href="#popupBasic" data-rel="popup" data-role="button" data-inline="true" data-transition="pop">Meet the Mentors</a>
+<div data-role="popup" id="popupBasic">
+<iframe width="560" height="358" src="https://techkim.makes.org/popcorn/16ci" frameborder="0" allowfullscreen></iframe>
+</div>
+-->
+	</div><!-- /content -->
+
+<div data-role="footer">
+	<div data-role="navbar" data-grid="d">
+    <ul>
+        <li><a href="#page1">Welcome</a></li>
+        <li><a href="#page2">Founders</a></li>
+        <li><a href="#page3" class="ui-btn-active">Mentors</a></li>
+        <li><a href="#page4">Students</a></li>
+        <li><a href="#page5">Resources</a></li>
+    </ul>
+</div><!-- /navbar -->
+</div><!-- /foooter -->
+</div><!-- /page -->
+
+<!-- Start of Students page -->
+<div data-role="page" id="page4">
+
+	<div data-role="header"  data-position="fixed">
+	<h1>Meet CoderDojo Kids</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+<p>At a CoderDojo, young people learn how to code, develop websites, apps, programs, games and more. Dojos are set up, run by and taught at by volunteers. Dojos organise tours of technology companies, bring in guest speakers to talk about their career and what they do, and organise events. In addition to learning to code, members meet like minded people, show off what they have been working on and share ideas.</p>
+<br>
+<iframe src="https://docs.google.com/a/kimxtom.com/file/d/0B8bnFyzmW4V_aGcxdGg5YThUSEE/preview" width="640" height="385"></iframe>
+	</div><!-- /content -->
+
+<div data-role="footer">
+	<div data-role="navbar" data-grid="d">
+    <ul>
+        <li><a href="#page1">Welcome</a></li>
+        <li><a href="#page2">Founders</a></li>
+        <li><a href="#page3">Mentors</a></li>
+        <li><a href="#page4" class="ui-btn-active">Students</a></li>
+        <li><a href="#page5">Resources</a></li>
+    </ul>
+</div><!-- /navbar -->
+</div><!-- /foooter -->
+</div><!-- /page -->
+
+<!-- Start of Resources page -->
+<div data-role="page" id="page5">
+
+	<div data-role="header"  data-position="fixed">
+	<h1>Resources</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+<div data-role="collapsible-set" data-theme="c" data-content-theme="d">
+    <div data-role="collapsible">
+        <h3>What is CoderDojo?</h3>
+        <ul>
+        <li><a href="http://coderdojo.com/" target="_blank">CoderDojo website</a></li>
+        <li><a href="http://youtu.be/_bjboMjNr9Q" target="_blank">Coding the Future</a> (video)</li>
+        <li><a href="http://youtu.be/TDGg476fKM0" target="_blank">CoderDojo Session @ GlobalEd12</a> (video)</li>
+        <li><a href="http://www.thejournal.ie/readme/coderdojo-james-whelton-535224-Jul2012/?utm_source=shortlink" target="_blank">How my school computer club turned into a worldwide movement</a></li>
+        </ul>
+    </div>
+    <div data-role="collapsible">
+        <h3>Why is it important to the educational landscape?</h3>
+       <ul>
+       <li><a href="http://blog.acm.org/archives/csta/2012/11/code_literacy_a.html" target="_blank">Code Literacy: A 21st-Century Requirement</a> by Douglas Rushkoff</li>
+       <li><a href="http://youtu.be/kgicuytCkoY" target="_blank">Program or Be Programmed</a> by Douglas Rushkoff (video)</li>
+       <li><a href="http://llk.media.mit.edu/papers/mres-wef.pdf" target="_blank">Rethinking Learning in the Digital Age</a> by Mitchel Resnick, MIT</li>
+       <li><a href="http://youtu.be/42_30Rgf6F0" target="_blank">Reading, Writing, and Programming: Mitch Resnick</a> at TEDxBeaconStreet (video)</li>
+       <li><a href="http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf12609" target="_blank">Computing Education for the 21st Century</a></li>
+       <li><a href="http://www.computinginthecore.org/facts-resources" target="_blank">Computing in the Core: Top 10 Facts about Computer Science Education</a></li>
+       <li><a href="http://www.acm.org/runningonempty/" target="_blank">Running on Empty: The Failure to Teach K-12 Computer Science in the Digital Age</a></li>
+       <li><a href="http://dmlcentral.net/blog/monika-hardy/hasten-equityscale-individual" target="_blank">To Hasten Equity: Scale the Individual</a></li>
+       </ul>
+    </div>
+    <div data-role="collapsible">
+        <h3>What does CoderDojo look like in different communities and settings?</h3>
+       <ul>
+       <li><a href="http://coderdojo.k12albemarle.org/index.htm" target="_blank">CoderDojo Albemarle County Public Schools</a> (2nd summer academy)</li>
+       <li><a href="http://cdathenry.wordpress.com/" target="_blank">CoderDojo Athenry</a> (active CoderDojo sharing resources)</li>
+       <li><a href="https://groups.google.com/forum/?fromgroups#!forum/coderdojo-dublin" target="_blank">CoderDojo Dublin</a> (active google group)</li>
+       <li><a href="http://coderdojonyc.com/" target="_blank">CoderDojo NYC</a> (newly launched and very active)</li>
+       <li><a href="http://zen.coderdojo.com/dojo" target="_blank">Dojo List</a></li>
+       
+       </ul>
+    </div>
+    <div data-role="collapsible">
+        <h3>What resources, best practices, advocacy tools exist to support the creation of CoderDojos?</h3>
+        <ul>
+        <li><a href="http://coderdojodocumentary.com/" target="_blank">CoderDojo Coding the Future</a></li>
+        <li><a href="https://groups.google.com/forum/?hl=en&fromgroups#!forum/coderdojo-org" target="_blank">CoderDojo Google Group</a></li>
+        <li><a href="https://groups.google.com/forum/?hl=en#!forum/coderdojogirls" target="_blank">CoderDojo Girls Google Group</a></li>
+        <li><a href="http://forum.coderdojo.com/" target="_blank">CoderDojo Forum</a></li>
+        <li><a href="http://www.code.org/" target="_blank">code.org</a> (aggregating a list of CS learning opportunities throughout the US)</li>
+        <li><a href="http://techkimweb.wikispaces.com" target="_blank">Create a Website</a> (tutorials by TechKim)</li>
+        <li><a href="http://techkimgames.wikispaces.com" target="_blank">Create a Video Game</a> (tutorials by TechKim)</li>
+        <li><a href="http://cdathenry.wordpress.com/2013/01/19/beginners-scratch-challenge-11-learn-about-networking/" target="_blank">Learn about Networking</a> (plus other tutorials by CoderDojo Athenry)</li>
+        <li><a href="http://kata.coderdojo.com/wiki/Tutorials_by_Galway" target="_blank">Zen and Art Of The Dojo Game</a> (tutorials by Galway CoderDojo)</li>
+        </ul>
+    </div>
+</div>
+	</div><!-- /content -->
+
+<div data-role="footer">
+	<div data-role="navbar" data-grid="d">
+    <ul>
+        <li><a href="#page1">Welcome</a></li>
+        <li><a href="#page2">Founders</a></li>
+        <li><a href="#page3">Mentors</a></li>
+        <li><a href="#page4">Students</a></li>
+        <li><a href="#page5" class="ui-btn-active">Resources</a></li>
+    </ul>
+</div><!-- /navbar -->
+</div><!-- /foooter -->
+</div><!-- /page -->
+</body>
